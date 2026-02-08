@@ -45,7 +45,7 @@ const toggle = () => {
     <div class=" w-4/5 mx-auto mt-4 ">
         <div class=" text-align-center flex gap-3">
 
-             <!-- Severities -->
+            <!-- Severities -->
             <select class=" text-align-center bg-[#C7DDF9] text-black font-medium
             px-4 py-2 rounded-full
             focus:outline-none focus:ring-2 focus:ring-blue-400
@@ -56,7 +56,7 @@ const toggle = () => {
                 <option>Red</option>
             </select>
 
-           <!-- Event types -->
+            <!-- Event types -->
             <select class=" text-align-center bg-[#C7DDF9] text-black font-medium
             px-4 py-2 rounded-full
             focus:outline-none focus:ring-2 focus:ring-blue-400
@@ -71,7 +71,7 @@ const toggle = () => {
     </div>
 
 
-     <!-- weather_warning_page_weather_row -->
+    <!-- weather_warning_page_weather_row -->
     <div class=" flex gap-[100px] p-4 shadow-sm w-4/5 mx-auto mt-4">
 
         <!-- weather_warning_page_weather_listings -->
@@ -81,9 +81,10 @@ const toggle = () => {
             <!-- weather_each_of_listing -->
             <ol>
                 <li>
-                    <div class="max-w-2xl mx-auto m-4 border border-orange-300 rounded-lg overflow-hidden font-sans">
+                    <div 
+                        class="max-w-2xl mx-auto m-4 border border-orange-300 rounded-lg overflow-hidden font-sans">
 
-                        <div
+                        <div @click="toggle"
                             class="flex items-center justify-between p-4 bg-orange-50 cursor-pointer hover:bg-orange-100 transition-colors">
                             <div class="flex items-center gap-3">
                                 <div class="bg-orange-500 p-1 rounded shadow-sm text-white">⚠️</div>
@@ -101,8 +102,7 @@ const toggle = () => {
                             </span>
                         </div>
 
-                        <div
-                            class="p-4 bg-orange-50 border-t border-orange-200 text-sm text-gray-800 space-y-4">
+                        <div class="p-4 bg-orange-50 border-t border-orange-200 text-sm text-gray-800 space-y-4">
                             <div>
                                 <h3 class="font-bold mb-1">Considerable avalanche danger</h3>
                                 <p>On Sunday we expect considerable avalanche danger for region Nordenskiöld Land.
@@ -133,7 +133,7 @@ const toggle = () => {
                 <li>
                     <div class="max-w-2xl mx-auto m-4 border border-orange-300 rounded-lg overflow-hidden font-sans">
 
-                        <div
+                        <div @click="toggle"
                             class="flex items-center justify-between p-4 bg-orange-50 cursor-pointer hover:bg-orange-100 transition-colors">
                             <div class="flex items-center gap-3">
                                 <div class="bg-orange-500 p-1 rounded shadow-sm text-white">⚠️</div>
@@ -151,8 +151,7 @@ const toggle = () => {
                             </span>
                         </div>
 
-                        <div
-                            class="p-4 bg-orange-50 border-t border-orange-200 text-sm text-gray-800 space-y-4">
+                        <div class="p-4 bg-orange-50 border-t border-orange-200 text-sm text-gray-800 space-y-4">
                             <div>
                                 <h3 class="font-bold mb-1">Considerable avalanche danger</h3>
                                 <p>On Sunday we expect considerable avalanche danger for region Nordenskiöld Land.
@@ -183,7 +182,7 @@ const toggle = () => {
                 <li>
                     <div class="max-w-2xl mx-auto m-4 border border-orange-300 rounded-lg overflow-hidden font-sans">
 
-                        <div
+                        <div @click="toggle"
                             class="flex items-center justify-between p-4 bg-orange-50 cursor-pointer hover:bg-orange-100 transition-colors">
                             <div class="flex items-center gap-3">
                                 <div class="bg-orange-500 p-1 rounded shadow-sm text-white">⚠️</div>
@@ -201,8 +200,7 @@ const toggle = () => {
                             </span>
                         </div>
 
-                        <div
-                            class="p-4 bg-orange-50 border-t border-orange-200 text-sm text-gray-800 space-y-4">
+                        <div class="p-4 bg-orange-50 border-t border-orange-200 text-sm text-gray-800 space-y-4">
                             <div>
                                 <h3 class="font-bold mb-1">Considerable avalanche danger</h3>
                                 <p>On Sunday we expect considerable avalanche danger for region Nordenskiöld Land.
@@ -233,7 +231,7 @@ const toggle = () => {
                 <li>
                     <div class="max-w-2xl mx-auto m-4 border border-orange-300 rounded-lg overflow-hidden font-sans">
 
-                        <div
+                        <div @click="toggle"
                             class="flex items-center justify-between p-4 bg-orange-50 cursor-pointer hover:bg-orange-100 transition-colors">
                             <div class="flex items-center gap-3">
                                 <div class="bg-orange-500 p-1 rounded shadow-sm text-white">⚠️</div>
@@ -251,8 +249,7 @@ const toggle = () => {
                             </span>
                         </div>
 
-                        <div
-                            class="p-4 bg-orange-50 border-t border-orange-200 text-sm text-gray-800 space-y-4">
+                        <div class="p-4 bg-orange-50 border-t border-orange-200 text-sm text-gray-800 space-y-4">
                             <div>
                                 <h3 class="font-bold mb-1">Considerable avalanche danger</h3>
                                 <p>On Sunday we expect considerable avalanche danger for region Nordenskiöld Land.
@@ -283,7 +280,7 @@ const toggle = () => {
                 <li>
                     <div class="max-w-2xl mx-auto m-4 border border-orange-300 rounded-lg overflow-hidden font-sans">
 
-                        <div
+                        <div @click="toggle"
                             class="flex items-center justify-between p-4 bg-orange-50 cursor-pointer hover:bg-orange-100 transition-colors">
                             <div class="flex items-center gap-3">
                                 <div class="bg-orange-500 p-1 rounded shadow-sm text-white">⚠️</div>
@@ -301,8 +298,7 @@ const toggle = () => {
                             </span>
                         </div>
 
-                        <div
-                            class="p-4 bg-orange-50 border-t border-orange-200 text-sm text-gray-800 space-y-4">
+                        <div class="p-4 bg-orange-50 border-t border-orange-200 text-sm text-gray-800 space-y-4">
                             <div>
                                 <h3 class="font-bold mb-1">Considerable avalanche danger</h3>
                                 <p>On Sunday we expect considerable avalanche danger for region Nordenskiöld Land.
@@ -356,8 +352,7 @@ const toggle = () => {
                             </span>
                         </div>
 
-                        <div
-                            class="p-4 bg-orange-50 border-t border-orange-200 text-sm text-gray-800 space-y-4">
+                        <div class="p-4 bg-orange-50 border-t border-orange-200 text-sm text-gray-800 space-y-4">
                             <div>
                                 <h3 class="font-bold mb-1">Considerable avalanche danger</h3>
                                 <p>On Sunday we expect considerable avalanche danger for region Nordenskiöld Land.
@@ -406,8 +401,7 @@ const toggle = () => {
                             </span>
                         </div>
 
-                        <div
-                            class="p-4 bg-orange-50 border-t border-orange-200 text-sm text-gray-800 space-y-4">
+                        <div class="p-4 bg-orange-50 border-t border-orange-200 text-sm text-gray-800 space-y-4">
                             <div>
                                 <h3 class="font-bold mb-1">Considerable avalanche danger</h3>
                                 <p>On Sunday we expect considerable avalanche danger for region Nordenskiöld Land.
